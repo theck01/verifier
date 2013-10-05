@@ -1,0 +1,140 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/theck/.nvm/v0.10.18/bin/node',
+1 verbose cli   '/home/theck/.nvm/v0.10.18/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.18
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/theck/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /home/theck/.npm/1f1177db-tar.lock
+15 silly lockFile 07ac53e6-95131-0-4403093389701098-tmp-tgz tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz
+16 verbose lock tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz /home/theck/.npm/07ac53e6-95131-0-4403093389701098-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 07ac53e6-95131-0-4403093389701098-tmp-tgz tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz
+20 silly lockFile 07ac53e6-95131-0-4403093389701098-tmp-tgz tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz
+21 verbose tar unpack /home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz
+22 silly lockFile 6a7d062c-95131-0-4403093389701098-package tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/package
+23 verbose lock tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/package /home/theck/.npm/6a7d062c-95131-0-4403093389701098-package.lock
+24 silly lockFile 07ac53e6-95131-0-4403093389701098-tmp-tgz tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz
+25 verbose lock tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz /home/theck/.npm/07ac53e6-95131-0-4403093389701098-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+33 silly gunzTarPerm extractEntry LICENSE
+34 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+35 silly gunzTarPerm extractEntry verifier.js
+36 silly gunzTarPerm modified mode [ 'verifier.js', 436, 420 ]
+37 silly gunzTarPerm extractEntry Makefile
+38 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+39 silly gunzTarPerm extractEntry spec/verifier.spec.js
+40 silly gunzTarPerm modified mode [ 'spec/verifier.spec.js', 436, 420 ]
+41 silly lockFile 6a7d062c-95131-0-4403093389701098-package tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/package
+42 silly lockFile 6a7d062c-95131-0-4403093389701098-package tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/package
+43 silly lockFile 07ac53e6-95131-0-4403093389701098-tmp-tgz tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz
+44 silly lockFile 07ac53e6-95131-0-4403093389701098-tmp-tgz tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/tmp.tgz
+45 verbose tar pack [ '/home/theck/.npm/verifier/0.1.0/package.tgz',
+45 verbose tar pack   '/home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/package' ]
+46 verbose tarball /home/theck/.npm/verifier/0.1.0/package.tgz
+47 verbose folder /home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/package
+48 silly lockFile 6a7d062c-95131-0-4403093389701098-package tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/package
+49 verbose lock tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/package /home/theck/.npm/6a7d062c-95131-0-4403093389701098-package.lock
+50 silly lockFile 34bd8843-k-npm-verifier-0-1-0-package-tgz tar:///home/theck/.npm/verifier/0.1.0/package.tgz
+51 verbose lock tar:///home/theck/.npm/verifier/0.1.0/package.tgz /home/theck/.npm/34bd8843-k-npm-verifier-0-1-0-package-tgz.lock
+52 silly lockFile 6a7d062c-95131-0-4403093389701098-package tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/package
+53 silly lockFile 6a7d062c-95131-0-4403093389701098-package tar:///home/theck/tmp/npm-3771-rYwU1BZv/1380991795131-0.4403093389701098/package
+54 silly lockFile 34bd8843-k-npm-verifier-0-1-0-package-tgz tar:///home/theck/.npm/verifier/0.1.0/package.tgz
+55 silly lockFile 34bd8843-k-npm-verifier-0-1-0-package-tgz tar:///home/theck/.npm/verifier/0.1.0/package.tgz
+56 silly lockFile 647e4f42-theck-npm-verifier-0-1-0-package /home/theck/.npm/verifier/0.1.0/package
+57 verbose lock /home/theck/.npm/verifier/0.1.0/package /home/theck/.npm/647e4f42-theck-npm-verifier-0-1-0-package.lock
+58 silly lockFile 647e4f42-theck-npm-verifier-0-1-0-package /home/theck/.npm/verifier/0.1.0/package
+59 silly lockFile 647e4f42-theck-npm-verifier-0-1-0-package /home/theck/.npm/verifier/0.1.0/package
+60 verbose tar unpack /home/theck/.npm/verifier/0.1.0/package.tgz
+61 silly lockFile 5672705d-theck-npm-verifier-0-1-0-package tar:///home/theck/.npm/verifier/0.1.0/package
+62 verbose lock tar:///home/theck/.npm/verifier/0.1.0/package /home/theck/.npm/5672705d-theck-npm-verifier-0-1-0-package.lock
+63 silly lockFile 34bd8843-k-npm-verifier-0-1-0-package-tgz tar:///home/theck/.npm/verifier/0.1.0/package.tgz
+64 verbose lock tar:///home/theck/.npm/verifier/0.1.0/package.tgz /home/theck/.npm/34bd8843-k-npm-verifier-0-1-0-package-tgz.lock
+65 silly gunzTarPerm modes [ '755', '644' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm extractEntry .npmignore
+68 silly gunzTarPerm extractEntry README.md
+69 silly gunzTarPerm extractEntry LICENSE
+70 silly gunzTarPerm extractEntry verifier.js
+71 silly gunzTarPerm extractEntry Makefile
+72 silly gunzTarPerm extractEntry spec/verifier.spec.js
+73 silly lockFile 5672705d-theck-npm-verifier-0-1-0-package tar:///home/theck/.npm/verifier/0.1.0/package
+74 silly lockFile 5672705d-theck-npm-verifier-0-1-0-package tar:///home/theck/.npm/verifier/0.1.0/package
+75 silly lockFile 34bd8843-k-npm-verifier-0-1-0-package-tgz tar:///home/theck/.npm/verifier/0.1.0/package.tgz
+76 silly lockFile 34bd8843-k-npm-verifier-0-1-0-package-tgz tar:///home/theck/.npm/verifier/0.1.0/package.tgz
+77 verbose chmod /home/theck/.npm/verifier/0.1.0/package.tgz 644
+78 verbose chown /home/theck/.npm/verifier/0.1.0/package.tgz [ 1000, 1000 ]
+79 silly lockFile 3a52ce78- .
+80 silly lockFile 3a52ce78- .
+81 silly publish { author: { name: 'Tyler Heck' },
+81 silly publish   bugs: { url: 'https://github.com/theck01/verifier/issues' },
+81 silly publish   dependencies: { underscore: '~1.5.2' },
+81 silly publish   devDependencies: { should: '~1.3.0', mocha: '~1.13.0' },
+81 silly publish   description: 'Validation and template functions to ensure that data matches a template structure',
+81 silly publish   keywords: [ 'validate', 'validation', 'verify', 'verifier', 'template' ],
+81 silly publish   license: 'MIT',
+81 silly publish   main: 'verifier.js',
+81 silly publish   name: 'verifier',
+81 silly publish   repository: { type: 'git', url: 'https://github.com/theck01/verifier' },
+81 silly publish   scripts: { test: 'make test' },
+81 silly publish   version: '0.1.0',
+81 silly publish   readme: 'verifier\n=============\n\nA validation function to ensure that javascript data structures match a template structure, and a template function to generate template structures from example data.\n\nWhy use verifier?\n-----------------\n\nValidating JSON data sent from the client is a painful task to do by hand. Rather than manually checking that fields exist with proper values, wouldn\'t it be nice to specify a template data structure to validate incoming data against? And wouldn\'t it be great if that template structure could be generated automatically from example data? **verifier** takes care of data structure validations and can create template structures given example data.\n\nLets see a quick example before I install this thing\n----------------------------------------------------\n\n    var verifier = require(\'verifier\');\n\n    var testObject = { \n      one: 1, \n      two: ["a","b"], \n      three: { a:1, b: undefined } \n    } \n\n    // create a template for the data to match by hand\n    var template = {\n      one: "number",\n      two: ["string"],\n      three: { a: "number", b: "undefined" }\n    }\n\n    // returns the object, after being successfully validated with the template\n    verifier.validate(testObject, template);\n\n    // create another template for the data to match.\n    // Notice that the "two" field should now have a value "string", rather than\n    // an array of strings\n    var anotherTemplate = {\n      one: "number",\n      two: "string",\n      three: { a: "number", b: "undefined" }\n    }\n\n    // returns null, after validation with the template fails\n    verifier.validate(testObject, anotherTemplate);\n\n    var anotherTestObject = [ 1, 2, 3, "four", function () { return 5; } ];\n\n    // generate a template for the data\n    var yetAnotherTemplateObject = verifier.template(anotherTestObject)\n\n    // returns anotherTestObject, of course data should match its own template\n    verifier.validate(anotherTestObject, yetAnotherTemplate);\n\n    var yetAnotherTestObject = [ { a: \'b\'}, 1, 2, "four" } ];\n\n    \n    // returns null, the template will not match {a: \'b\'} in yetAnotherTestObject\n    verifier.validate(yetAnotherTestObject, yetAnotherTemplate);\n\nAlright, looks good, how do I install?\n--------------------------------------\n\nInstall **verifier** using npm, either on the command line:\n\n    npm install verifier\n\nOr by adding "verifier" to your package.json file.\n\nNow that I\'ve got it, how do I use it?\n--------------------------------------\n\nThe most common use case is to create a sample object, array, etc, and then use the template function to create a template structure. That template structure can be used to validate that other data is in the same format as the example data.\n\n    var verifier = require("verifier");\n\n    var exampleData = ...;\n    var template = verifier.template(exampleData);\n\n    var testData = ...;\n\n    if(verifier.validate(testData, template)) {\n      // do some stuff with testData because it has the desired structure\n    }\n    else {\n      // do some other stuff with testData because it does not match the desired\n      // structure\n    }\n\nThe created template matches against the structure and type of the data, but not the specific values.\n\n    // A template created from any one of the following would match the others\n    { x: 1, y: 2, move: function () { ... }, colors: [ "#0000FF", "#FF0000" ] }\n    { x: 1000, y: 0.33, move: function () { ... }, colors: [ "#00FFFF" ] }\n    { x: -10, y: 33/2, move: function () { ... }, colors: [ "#0000FF", "foo", "bar", "baz" ] }\n\n    // A template generated from any of the above would not match against any of the below\n    { x: 1, y: 2, move: {}, colors ["#0000FF", "#FF0000"] }; // move should be a function\n    { x: 1, y: 2, colors ["#0000FF", "#FF0000"] }; // move fields is not present\n    // extra field z is present\n    { x: 1, y: 2, z: 4, move: function () { ... }, colors: [ "#0000FF", "#FF0000" ] }\n\nTo best understand what data will match what template, it is worth reading the section on how to create template structures by hand.\n\nHow do I create one of these templates by hand?\n-----------------------------------------------\n\nLets say you want to make a template to check against for some data, x. There are a few rules for making template structures, use the first that matches the data you are trying to create a template for:\n\n#### If _typeof x !== "object"_\n\nThe template is just _typeof x_\n    \nExample:\n\n    var x = "hello";\n    var template = "string";\n\n#### If _x === null_\n\nThe template is just null\n\nExample:\n\n    var x = null;\n    var template = null;\n\n#### If _!(x instanceof Array)_, a javascript object\n\nThe template is an object that has the same fields as the x. The values of the template at each field should be found by applying these rules to each value.\n\nExamples:\n\n    var x = { one: 1, two: "two", three: null };\n    var template = { one: "number", two: "string", three: null };\n\n    var anotherX = { \n      a: undefined, \n      b: true,  \n      c: { x: 1, y: 2 } \n    };\n    var anotherTemplate = {\n      a: "undefined",\n      b: "boolean",\n      c: { x: "number", y: "number" }\n    };\n\n#### If _x instanceof Array_\n\nThe template object is an array of structures that match all elements in x. Any duplicate structures do not need to be kept in the final template.\n\nExamples:\n\n    // the template for each item in x is "number", so the template for x is ["number\']\n    var x = [1,2,3,4];\n    var template = ["number"];\n\n    // there are two templates that match items in anotherX include both in another template \n    // Notice { x: "number", y: "number" } only has to appear in the template once\n    var anotherX = [\n      { x: 1, y: 2 },\n      { x: 3, y: 4 },\n      { x: 5, y: 6, z: 12}\n    ];\n    var anotherTemplate = [{ x: "number", y: "number" }, \n                           { x: "number", y: "number", z: "number" }];\n\nThis is helpful, but its missing...\n-----------------------------------\n\nSubmit an issue. Or even better a pull request.\n\nHere\'s a list of known shortcomings:\n\n1. There is no way to create a template that matches one of many structures (null and a string for example)\n',
+81 silly publish   readmeFilename: 'README.md',
+81 silly publish   _id: 'verifier@0.1.0',
+81 silly publish   dist: { shasum: '64652ea7e7ffef979fb34ad779a386b9b7e01ceb' },
+81 silly publish   _from: '.' }
+82 verbose url raw verifier
+83 verbose url resolving [ 'https://registry.npmjs.org/', './verifier' ]
+84 verbose url resolved https://registry.npmjs.org/verifier
+85 info trying registry request attempt 1 at 11:49:55
+86 http PUT https://registry.npmjs.org/verifier
+87 http 409 https://registry.npmjs.org/verifier
+88 verbose url raw verifier
+89 verbose url resolving [ 'https://registry.npmjs.org/', './verifier' ]
+90 verbose url resolved https://registry.npmjs.org/verifier
+91 info trying registry request attempt 1 at 11:49:56
+92 http GET https://registry.npmjs.org/verifier
+93 http 200 https://registry.npmjs.org/verifier
+94 error publish fail Cannot publish over existing version.
+94 error publish fail Update the 'version' field in package.json and try again.
+94 error publish fail
+94 error publish fail If the previous version was published in error, see:
+94 error publish fail     npm help unpublish
+94 error publish fail
+94 error publish fail To automatically increment version numbers, see:
+94 error publish fail     npm help version
+95 error System Linux 3.5.0-41-generic
+96 error command "/home/theck/.nvm/v0.10.18/bin/node" "/home/theck/.nvm/v0.10.18/bin/npm" "publish"
+97 error cwd /home/theck/verifier
+98 error node -v v0.10.18
+99 error npm -v 1.3.8
+100 error code EPUBLISHCONFLICT
+101 verbose exit [ 1, true ]
