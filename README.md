@@ -84,6 +84,14 @@ The most common use case is to create a sample object, array, etc, and then use 
       // structure
     }
 
+You can also provide an optional on mismatch function to validate, which will be called with mismatch description string if a mismatch occurs.
+
+    var testData = "bad data";
+    var template = { message: "I will fail" };
+
+    // the following will print the mismatch to the console.
+    verifier.validate(testData, template, function (msg) { console.log(msg); });
+
 The created template matches against the structure and type of the data, but not the specific values.
 
     // A template created from any one of the following would match the others

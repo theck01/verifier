@@ -19,7 +19,7 @@ function hasOnly (obj, propList) {
 
   if(retval && _.keys(obj).length === propList.length) return true;
   return false;
-};
+}
 
 
 function template(obj) {
@@ -37,7 +37,6 @@ function template(obj) {
   // if object is an array, return an array of unique templates to match all
   // possible elements in the array
   if(obj instanceof Array){
-    debugger;
     return _.uniq(_.map(obj, template));
   }
 
@@ -76,7 +75,7 @@ function validateRec(obj, template) {
           return validate(e,t) !== null;
         });
         if(match === undefined) throw new ObjectTemplateMismatch(obj, template);
-      })
+      });
 
       return;
     }
@@ -95,19 +94,21 @@ function validateRec(obj, template) {
 }
 
 // wrapper around validateRec, catching thrown ObjectTemplateMismatchs
-function validate(obj, template) {
+function validate(obj, template, opt_onError) {
   try{
     validateRec(obj, template);
   }
   catch (e) {
     if(e instanceof ObjectTemplateMismatch){
+      if(opt_onError) opt_onError(e.toString());
       return null;
     }
     throw e; // rethrow exception
   }
 
   return obj;
-};
+}
+
 
 // export the validate function
 exports.validate = validate;

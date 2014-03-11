@@ -101,6 +101,18 @@ describe("verifier", function () {
           )
         );
       });
+
+      it("should call the error function", function () {
+        var calledMismatch = false;
+
+        verifier.validate("I will fail", 1, function (msg) {
+          var expectedMsg = '"I will fail" does not match template \'1\'';
+          msg.should.eql(expectedMsg);
+          calledMismatch = true;
+        });
+
+        calledMismatch.should.be.true;
+      });
     });
   });
 
