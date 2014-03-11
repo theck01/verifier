@@ -4,8 +4,11 @@ TESTS = spec/verifier.spec.js
 
 .PHONY: test
 
-test:
+build:
+	npm install
+
+test: build
 	@$(MOCHA) $(MOCHA_OPTS) $(TESTS)
 
-debug-test:
+debug-test: build
 	@$(MOCHA) debug $(MOCHA_OPTS) $(TESTS)
